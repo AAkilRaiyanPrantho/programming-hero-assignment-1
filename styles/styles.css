@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+/* Common Styles */
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title1{
+    margin: 10px;
+    padding: 50px 240px;
+}
+
+#main-heading{
+    font-size: 75px;
+}
+#main-para{
+    font-size: 20px;
+}
+.header-title2{
+    margin: 0px 10px;
+    padding: 50px 250px 0px 10px;
+}
+
+.primary-btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px;
+    border: 0px;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.header-photo{
+    width: 600px; 
+    height: 800px;
+}
+
+
