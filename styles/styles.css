@@ -7,6 +7,8 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+/* Header Part Decoration Starts */
+
 .header{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -44,4 +46,34 @@ body {
     height: 800px;
 }
 
+/* Header Part Decoration Ends */
 
+/* Footer Part Decoration Starts */
+.footer{
+    background-color: rgba(0, 0, 0, 0.918);
+    text-align: center;
+}
+.footer-header{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 40px 0px 15px;
+}
+
+.footer-text{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.footer-div{
+    margin: auto;
+    width: 32%;
+    padding: 40px;
+}
+/* Footer Part Decoration Ends */
