@@ -39,6 +39,8 @@ body {
   align-items: center;
   color: whitesmoke;
   font-size: 15px;
+  font-weight: 600;
+  width: 100px;
 }
 
 .header-photo {
@@ -140,7 +142,7 @@ body {
 .delivery {
   margin: auto;
   margin-bottom: 20px;
-  width: 55%;
+  width: 75%;
   padding: 40px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -164,6 +166,37 @@ figcaption {
   align-items: center;
 }
 /* Delivery Option Section Ends */
+
+/* Latest Deal section starts */
+
+.deals {
+  background-image: url('../Flower_Asset/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  margin: auto;
+  padding: 40px;
+}
+.s-mail {
+  width: 700px;
+  height: 64px;
+  margin-right: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+.subscribe-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Latest Deal section ends */
 
 /* Footer Part Decoration Starts */
 .footer {
