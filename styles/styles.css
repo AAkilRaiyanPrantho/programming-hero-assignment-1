@@ -167,12 +167,40 @@ figcaption {
 }
 /* Delivery Option Section Ends */
 
+/* Instagram Section Starts */
+
+.instagram {
+  width: 75%;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.insta-texts {
+  width: 40%;
+  margin: auto;
+  padding: 40px;
+}
+
+.insta-images > ul{
+    display: flex;
+}
+
+.insta-images li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* Instagram Section Ends */
+
 /* Latest Deal section starts */
 
 .deals {
-  background-image: url('../Flower_Asset/Rectangle\ 9.png');
+  background-image: url("../Flower_Asset/Rectangle\ 9.png");
   background-repeat: no-repeat;
-  width: 1440px;
+  background-size: contain;
+  width: 75%;
   height: 449px;
   border-radius: 8px;
   margin: auto;
