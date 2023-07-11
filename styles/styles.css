@@ -98,6 +98,10 @@ body {
   width: 22%;
 }
 
+.card :hover {
+	border-radius: 10% 10%;
+}
+
 .featured-flowers-background1 {
   width: 275px;
   height: 400px;
@@ -167,6 +171,10 @@ figcaption {
 .flower-options {
   align-items: center;
 }
+
+.flower-options :hover{
+  transform: scale(1.2);
+}
 /* Delivery Option Section Ends */
 
 /* Hot Deal Section Starts */
@@ -230,6 +238,11 @@ figcaption {
 .insta-images li {
   list-style: none;
   margin-right: 20px;
+}
+
+.insta-images li:hover{
+  box-shadow: 10px 10px 10px rgb(212, 92, 112);
+  ;
 }
 
 /* Instagram Section Ends */
