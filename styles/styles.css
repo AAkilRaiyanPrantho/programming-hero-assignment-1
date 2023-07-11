@@ -9,7 +9,7 @@ body {
 
 /* Header Part Decoration Starts */
 
-.header {
+.header{
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
   align-items: center;
@@ -166,6 +166,26 @@ figcaption {
   align-items: center;
 }
 /* Delivery Option Section Ends */
+
+/* Hot Deal Section Starts */
+.hot-deals{
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+}
+.hot-deals-texts{
+  background-color: aqua;
+  width: 50%;
+}
+.hot-deals-image{
+  background-color: aquamarine;
+  width: 50%;
+}
+
+.signup-btn{
+
+}
+
+/* Hot Deal Section Ends */
 
 /* Instagram Section Starts */
 
