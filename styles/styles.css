@@ -275,13 +275,15 @@ figcaption {
 .request-textarea{
   background-color: rgba(250, 250, 250, 0.6);
   border: 2px solid #f1f1f1;
-  color: bisque;
+  color: #181818;
   font-size: 15px;
+  font-weight: 500;
   border-radius: 8px;
 }
 
 ::placeholder{
-  color: #181818;
+  color: #181818ee;
+  font-weight: 400;
   font-family: "Lato", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
