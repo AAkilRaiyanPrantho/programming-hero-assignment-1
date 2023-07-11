@@ -34,6 +34,7 @@ body {
 .primary-btn {
   border-radius: 8px;
   background: #e55473;
+  border: 1px solid #e7355c;
   padding: 10px;
   border: 0px;
   align-items: center;
@@ -77,6 +78,7 @@ body {
   font-size: 35px;
   font-weight: 800;
 }
+
 .featured-flowers-para {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -232,6 +234,74 @@ figcaption {
 
 /* Instagram Section Ends */
 
+/* Bonus section starts */
+.flower-requests{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.459), rgba(236, 156, 216, 0.73)), url('../Flower_Asset/exttra-section.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75%;
+  height: 460px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.request-texts{
+  background-color: rgba(250, 250, 250, 0.6);
+  border: 2px solid #f1f1f1;
+  border-radius: 0px 50px 0px 50px;
+}
+
+.request-header{
+  margin-top: 5px;
+  color: #181818;
+}
+
+.request-para {
+  margin-top: 5px;
+  color: rgba(39, 39, 39, 1);
+}
+
+.request-form{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+
+.request-textarea{
+  background-color: rgba(250, 250, 250, 0.6);
+  border: 2px solid #f1f1f1;
+  color: bisque;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+::placeholder{
+  color: #181818;
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border: 1px solid #e7355c;
+}
+
+.req-form{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Bonus section ends */
+
 /* Latest Deal section starts */
 
 .deals {
@@ -256,6 +326,7 @@ figcaption {
   align-items: center;
   margin: auto;
   padding: 40px;
+  
 }
 .subscribe-form {
   margin-left: auto;
